@@ -1,0 +1,11 @@
+api:
+  base_url: "https://gateway.marvel.com"
+  api_path: "/v1/public/characters"
+  retries: 3
+  timeout: 10
+  page_size: 50  # Limit less than or equal 100
+
+output:
+  raw_file: "raw_output.jsonl"
+  transformed_file: "final_output"
+  format: "csv"  # options: csv, parquet
