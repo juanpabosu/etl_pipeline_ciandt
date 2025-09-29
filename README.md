@@ -1,7 +1,5 @@
 # Python ETL Pipeline and SQL Test for Data Engineers
 
-##Project
-
 This project implements a simple Extract-Transform-Load (ETL) pipeline in Python and SQL challenges using GCP BigQuery
 
 ## ETL Features
