@@ -62,7 +62,7 @@ etl_pipeline_ciandt/
 │   ├── pipeline.py        # Orchestrates Extract → Transform steps
 │   └── main.py            # Entry point
 │ 
-├──sql/                    # SQL queries
+├── sql/                    # SQL queries
 │
 ├── tests/                 # Unit tests
 │   ├── test_extractor.py
