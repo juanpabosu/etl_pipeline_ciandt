@@ -1,8 +1,10 @@
-# ETL Pipeline Project
+# Python ETL Pipeline and SQL Test for Data Engineers
 
-This project implements a simple Extract-Transform-Load (ETL) pipeline in Python.
+##Project
 
-## Features
+This project implements a simple Extract-Transform-Load (ETL) pipeline in Python and SQL challenges using GCP BigQuery
+
+## ETL Features
 - Extract data from a REST API with pagination
 - Save raw data in JSON Lines format
 - Transform data using pandas and save in CSV or Parquet format (dynamic filename)
@@ -13,8 +15,9 @@ This project implements a simple Extract-Transform-Load (ETL) pipeline in Python
 ## Prerequisites
 - Python 3.8 or higher
 - pip (Python package installer)
+- BigQuery Studio
 
-## Setup
+## ETL Pipeline Setup
 
 ### 1. Clone or Download the Project
 ```bash
@@ -60,8 +63,10 @@ etl_pipeline_ciandt/
 │   ├── transformer.py     # Transform data
 │   ├── pipeline.py        # Orchestrates Extract → Transform steps
 │   └── main.py            # Entry point
+│ 
+├──sql/                    # SQL queries
 │
-├── tests/
+├── tests/                 # Unit tests
 │   ├── test_extractor.py
 │   ├── test_transformer.py
 │   └── test_pipeline.py
@@ -70,7 +75,7 @@ etl_pipeline_ciandt/
 └── README.md
 ```
 
-## Usage
+## ETL Pipline Usage
 
 ### Configuration
 Edit `config/config.yaml` to customize:
@@ -104,3 +109,6 @@ When you're done working:
 deactivate
 ```
 
+## SQL Test
+
+Review SQL challenges in `sql/README.md`
